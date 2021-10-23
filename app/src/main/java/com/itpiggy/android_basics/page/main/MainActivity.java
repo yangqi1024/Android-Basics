@@ -11,6 +11,7 @@ import com.itpiggy.android_basics.R;
 import com.itpiggy.android_basics.model.MainItemModel;
 import com.itpiggy.android_basics.page.handler.HandlerActivity;
 import com.itpiggy.android_basics.page.handler.HandlerThreadActivity;
+import com.itpiggy.android_basics.page.sharedpreferences.SharedPreferencesActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         List<MainItemModel> list = new ArrayList();
         list.add(new MainItemModel("Handler", HandlerActivity.class));
         list.add(new MainItemModel("HandlerThread", HandlerThreadActivity.class));
+        list.add(new MainItemModel("SharedPreference", SharedPreferencesActivity.class));
         return list;
     }
 }

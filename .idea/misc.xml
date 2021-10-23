@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_asynctask.xml" value="0.215625" />
         <entry key="app/src/main/res/layout/activity_handler.xml" value="0.215625" />
         <entry key="app/src/main/res/layout/activity_handler_thread.xml" value="0.215625" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2682291666666667" />
+        <entry key="app/src/main/res/layout/activity_sharedpreferences.xml" value="0.25" />
         <entry key="app/src/main/res/layout/layout_main_recyclerview_item.xml" value="0.215625" />
       </map>
     </option>
