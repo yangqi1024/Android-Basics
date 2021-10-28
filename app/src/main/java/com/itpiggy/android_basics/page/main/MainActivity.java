@@ -9,6 +9,9 @@ import android.os.Bundle;
 
 import com.itpiggy.android_basics.R;
 import com.itpiggy.android_basics.model.MainItemModel;
+import com.itpiggy.android_basics.page.binder.AidlActivity;
+import com.itpiggy.android_basics.page.binder.MessengerActivity;
+import com.itpiggy.android_basics.page.broadcastreceiver.LocalReceiverActivity;
 import com.itpiggy.android_basics.page.handler.HandlerActivity;
 import com.itpiggy.android_basics.page.handler.HandlerThreadActivity;
 import com.itpiggy.android_basics.page.mmkv.MmkvActivity;
@@ -44,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
         list.add(new MainItemModel("HandlerThread", HandlerThreadActivity.class));
         list.add(new MainItemModel("SharedPreference", SharedPreferencesActivity.class));
         list.add(new MainItemModel("MMKV", MmkvActivity.class));
+        list.add(new MainItemModel("LocalBroadcastReceiver", LocalReceiverActivity.class));
+        list.add(new MainItemModel("AIDL", AidlActivity.class));
+        list.add(new MainItemModel("Messenger", MessengerActivity.class));
         return list;
     }
 }
