@@ -20,7 +20,7 @@
             android:name=".page.broadcastreceiver.LocalReceiverActivity"
             android:exported="true" />
         <activity
-            android:name=".mvvm.MvvmActivity"
+            android:name=".mvvm.view.LoginActivity"
             android:exported="true" />
         <activity
             android:name=".page.mmkv.MmkvActivity"
@@ -37,7 +37,8 @@
         <activity android:name=".page.handler.HandlerActivity" />
         <activity android:name=".page.handler.HandlerThreadActivity" />
         <activity android:name=".page.sharedpreferences.SharedPreferencesActivity" />
-
+        <activity android:name=".mvc.controller.LoginActivity" />
+        <activity android:name=".mvp.view.LoginActivity" />
 
         <service
             android:name=".page.binder.BookService"

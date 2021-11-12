@@ -1,11 +1,14 @@
 package com.itpiggy.android_basics.page.main;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.os.PersistableBundle;
+import android.util.Log;
 
 import com.itpiggy.android_basics.R;
 import com.itpiggy.android_basics.model.MainItemModel;
@@ -51,5 +54,11 @@ public class MainActivity extends AppCompatActivity {
         list.add(new MainItemModel("AIDL", AidlActivity.class));
         list.add(new MainItemModel("Messenger", MessengerActivity.class));
         return list;
+    }
+
+    @Override
+    public void onSaveInstanceState(@NonNull Bundle outState, @NonNull PersistableBundle outPersistentState) {
+        super.onSaveInstanceState(outState, outPersistentState);
+        Log.i("MainActivity","onSaveInstanceState");
     }
 }

@@ -10,6 +10,8 @@
         <entry key="app/src/main/res/layout/activity_local_receiver.xml" value="0.34739583333333335" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2682291666666667" />
         <entry key="app/src/main/res/layout/activity_mmkv.xml" value="0.5494791666666666" />
+        <entry key="app/src/main/res/layout/activity_mvc_login.xml" value="0.346875" />
+        <entry key="app/src/main/res/layout/activity_mvvm.xml" value="0.5140625" />
         <entry key="app/src/main/res/layout/activity_sharedpreferences.xml" value="0.25" />
         <entry key="app/src/main/res/layout/layout_main_recyclerview_item.xml" value="0.215625" />
       </map>
