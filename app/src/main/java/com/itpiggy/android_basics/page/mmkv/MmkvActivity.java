@@ -56,6 +56,7 @@ public class MmkvActivity extends AppCompatActivity {
             mmkv.clearAll();
             tvResult.setText("");
         });
+        registerReceiver()
     }
 
     private long castTime(Runnable runnable) {

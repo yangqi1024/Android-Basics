@@ -8,3 +8,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Android-Basics"
 include ':app'
+include ':processor'
+include ':viewbind'
+include ':myapplication'

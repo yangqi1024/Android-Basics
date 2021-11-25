@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidBasics">
         <activity
+            android:name=".page.processor.ProcessorActivity"
+            android:exported="true" />
+        <activity
             android:name=".page.binder.AidlActivity"
             android:exported="true" />
         <activity
