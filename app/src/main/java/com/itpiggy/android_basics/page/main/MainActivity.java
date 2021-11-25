@@ -17,6 +17,7 @@ import com.itpiggy.android_basics.page.binder.MessengerActivity;
 import com.itpiggy.android_basics.page.broadcastreceiver.LocalReceiverActivity;
 import com.itpiggy.android_basics.page.handler.HandlerActivity;
 import com.itpiggy.android_basics.page.handler.HandlerThreadActivity;
+import com.itpiggy.android_basics.page.hilt.HiltActivity;
 import com.itpiggy.android_basics.page.mmkv.MmkvActivity;
 import com.itpiggy.android_basics.page.sharedpreferences.SharedPreferencesActivity;
 
@@ -53,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
         list.add(new MainItemModel("LocalBroadcastReceiver", LocalReceiverActivity.class));
         list.add(new MainItemModel("AIDL", AidlActivity.class));
         list.add(new MainItemModel("Messenger", MessengerActivity.class));
+        list.add(new MainItemModel("Hint", HiltActivity.class));
         return list;
     }
 
